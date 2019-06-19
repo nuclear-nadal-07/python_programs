@@ -19,8 +19,8 @@ class GroupNumbers:
     This method will group the numbers based on first digit 
     here the first digit of the number is used as key i.e 0 - 9
     if the dictionary already have the key value it will get
-    the value(list object) for the key and appends the number and 
-    updated the dictionary with new object
+    the value(list object) for the key and appends the number to the list
+    then updates the dictionary with new list object
     
     if the key is not found in the dictionary new list object will be 
     created and added to dictionary with corresponding key
